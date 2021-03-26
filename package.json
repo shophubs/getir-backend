@@ -1,7 +1,7 @@
 {
   "name": "getir",
   "version": "1.0.0",
-  "description": "Getir's Backend Assignment",
+  "description": "Getir's Backend Assignment-Anurag",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bugrahan/getir.git"
+    "url": "git+https://github.com/anuragvishwa/getir-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bugrahan/getir/issues"
+    "url": "https://github.com/anuragvishwa/getir-backend/issues"
   },
-  "homepage": "https://github.com/bugrahan/getir#readme",
+  "homepage": "https://github.com/anuragvishwa/getir-backend#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-validator": "^6.6.0",
