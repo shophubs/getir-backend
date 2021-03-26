@@ -4,7 +4,7 @@
 This is a RESTful API project with a single endpoint that fetches the data in the provided MongoDB collection and returns the results in the requested format.
 
 You can send a POST request to this URL:
-https://getir-app-bugrahan.herokuapp.com/records
+
 
 This can be used as a sample payload:
 
