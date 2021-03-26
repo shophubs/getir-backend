@@ -1,0 +1,36 @@
+{
+  "name": "getir",
+  "version": "1.0.0",
+  "description": "Getir's Backend Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugrahan/getir.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugrahan/getir/issues"
+  },
+  "homepage": "https://github.com/bugrahan/getir#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
