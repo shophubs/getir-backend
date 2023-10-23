@@ -3,7 +3,9 @@ const Record = require('../models/record')
 const router = new express.Router()
 const {check, validationResult} = require('express-validator')
 
-
+router.get("/", (req, res) => {
+    res.send("Getir Api is working properly");
+  });
 
 router.post('/records', [
     check('startDate', 'startDate should be a date.').isDate(),
