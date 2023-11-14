@@ -3,6 +3,7 @@ const app = require('../src/app')
 
 
 test('Successful request', async () => {
+    console.log("vishwa");
     const response = await request(app).post('/records').send({
         "startDate": "2016-12-12",
         "endDate": "2016-12-13",
