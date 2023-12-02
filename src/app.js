@@ -3,7 +3,7 @@ require('./db/mongoose')
 const recordRouter = require('./routers/record')
 
 const app = express()
-console.log("vishwas");
+console.log("vis");
 app.use(express.json())
 app.use(recordRouter)
 module.exports = app
