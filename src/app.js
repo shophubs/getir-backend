@@ -6,5 +6,5 @@ const app = express()
 
 app.use(express.json())
 app.use(recordRouter)
-console.log("vishwa");
+
 module.exports = app
