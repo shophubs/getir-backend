@@ -6,7 +6,7 @@ This is a RESTful API project with a single endpoint that fetches the data in th
 You can send a POST request to this URL:
 https://anurag-getir.herokuapp.com/records
 
-This can be used as a sample payload:
+This can be used as a sample payload:vishwa
 
 `{
     "startDate": "2016-12-12",
